@@ -1,9 +1,7 @@
 def square_array(array)
   numbers = [1,2,3]
-  (numbers).to_not receive(:collect)
-  (numbers).to_not receive(:map)
-  (numbers).to_not receive(:inject)
-  square_array(numbers)
+  
+  
   
 end 
 
